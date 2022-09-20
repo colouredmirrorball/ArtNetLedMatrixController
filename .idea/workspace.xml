@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9854b9f5-82cc-42b2-a355-e0d7e592dd74" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/ArtNetInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/ArtNetOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/ArtNetThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/InputOutputLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/NoopTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/cmbsoft/artnetcontrol/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/core/src/test/java/com/illposed/osc/transport/OSCPortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/core/src/test/java/com/illposed/osc/transport/OSCPortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaOSC/JavaOSC/modules/ui/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../JavaOSC/JavaOSC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ErJsOicCFSW7H4sF9w4ShYjAfa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Code/Java/JavaOSC/JavaOSC",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.All in javaosc-core">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.cmbsoft.artnetcontrol.Main" />
+      <module name="ArtNetLedMatrixController" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.cmbsoft.artnetcontrol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.illposed.osc.ui.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.illposed.osc.ui.Main" />
+      <module name="javaosc-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.illposed.osc.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in javaosc-core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaosc-core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in javaosc-java-se-addons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaosc-java-se-addons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in javaosc-core" />
+        <item itemvalue="Application.com.illposed.osc.ui.Main" />
+        <item itemvalue="JUnit.All in javaosc-java-se-addons" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9854b9f5-82cc-42b2-a355-e0d7e592dd74" name="Changes" comment="" />
+      <created>1663347977910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663347977910</updated>
+      <workItem from="1663347979134" duration="423000" />
+      <workItem from="1663507892892" duration="8048000" />
+      <workItem from="1663619972393" duration="2697000" />
+      <workItem from="1663657002391" duration="1057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
