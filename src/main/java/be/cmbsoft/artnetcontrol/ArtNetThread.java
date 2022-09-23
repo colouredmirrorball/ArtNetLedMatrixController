@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class ArtNetThread extends Thread {
 
-    private Transformer transformer;
+    private final List<Transformer> transformers = new ArrayList<>();
 
     @Override
     public void run() {
@@ -36,10 +36,18 @@ public class ArtNetThread extends Thread {
     }
 
     private byte[] transformData(byte[] dmxData) {
-        return transformer.transform(dmxData);
+        for (Transformer transformer : transformers) {
+            dmxData = transformer.transform(dmxData);
+        }
+        return dmxData;
     }
 
     public void setTransformer(Transformer transformer) {
-        this.transformer = transformer;
+        transformers.clear();
+        transformers.add(transformer);
+    }
+
+    public void addTransformer(Transformer transformer) {
+        transformers.add(transformer);
     }
 }
